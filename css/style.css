@@ -1,0 +1,25 @@
+.main-container {
+  max-width: 850px;
+}
+
+ul.contact-list li{
+  display: inline;
+  margin-bottom: 3em;
+}
+
+
+div.title{
+  border: solid;
+  border-color: gray;
+  border-top-width: 5px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  margin-bottom: 10px;
+}
+
+
+/*.card {
+  padding: 10px;
+}*/
+
