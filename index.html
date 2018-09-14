@@ -3,7 +3,7 @@
 <head>
   <title>Online Resume</title>
   <!-- CSS -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Lora:400,400i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i|Signika" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -14,37 +14,42 @@
 
 
   <div class="container main-container">
-      <h1 class="text-center display-4">Nick Hoang</h1>
+      <img class="profile-pic" src="./static/pictures/sansan.JPG">
+      <h1 class="name text-center display-4">Nick Hoang</h1>
+      <ul class="contact-list list-unstyled text-center">
+        <li>
+          <i class="fas fa-map-marker-alt"></i>Burnaby
+        </li>
+        <li>
+          <a href="https://resume.creddle.io/resume/7gojwm9qt8c" target="_blank">
+            <i class="fas fa-cloud-download-alt"></i>Printable resume
+          </a>
+        </li>
+        <li>
+          <a href="tel:+16046183453" target="_blank">
+            <i class="fas fa-mobile-alt"> </i>604-618-3453
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/tienhoah" target="_blank">
+            <i class="fab fa-github"></i>Github
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/nick-hoang/" target="_blank">
+            <i class="fab fa-linkedin-in">LinkedIn</i>
+          </a>
+        </li>
+      </ul>
       <div class="title clearfix">
         <h2 class="float-left ">Web Developer</h2>
 
-        <ul class="contact-list list-unstyled float-right">
-          <li>
-            <a href="mailto:nickhoang11@gmail.com">
-              <i class="far fa-envelope"></i>
-            </a>
-          </li>
-          <li>
-            <a href="tel:+16046183453">
-              <i class="fas fa-mobile-alt"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/tienhoah">
-              <i class="fas fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/nick-hoang/">
-              <i class="fab fa-linkedin-in">
 
-              </i>
-            </a>
-          </li>
-        </ul>
       </div>
-      <p class="">A Junior Web Developer with a pursuit of making websites beautiful to look at and enjoyable to use. Combination of designing mind and logical thinking always pushes myself to seek innovative ways to soleve problems. Passionate about learning all Web fundamental technologies to become a full-stack web developer, and yet quickly adaptable to different trends and industry environments.</p>
-
+      <p class="">A Junior Web Developer with a pursuit of making websites beautiful to look at and enjoyable to use. Combination of designing mind and logical thinking always pushes myself to seek innovative ways to solve problems. Passionate about learning all Web fundamental technologies to become a full-stack web developer, and yet quickly adaptable to different trends and industry environments.</p>
+      <div class="text-center">
+        <a class="btn btn-outline-secondary btn-lg" href="mailto:nickhoang11@gmail.com" role="button">Contact me</a>
+      </div>
 
       <div class="skill-section">
         <div class="title">
@@ -52,15 +57,15 @@
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-4">
-            <h6>LANGUAGES & FRAMEWORKS:</h6>
+            <h6>LANGUAGES & FRAMEWORKS</h6>
             <p>Javascript, HTML/CSS, React, Node.js, SQL, Ruby on Rails, Jquery, Bootstrap, Python, Django, Java</p>
           </div>
           <div class="col-xs-12 col-sm-4">
-            <h6>SYSTEMS & DATABASES:</h6>
+            <h6>SYSTEMS & DATABASES</h6>
             <p>Git/Github, PostgreSQL, MySQL, MongoDB, SQLite3, ArcGIS geodatabase</p>
           </div>
           <div class="col-xs-12 col-sm-4">
-            <h6>ADDITIONAL SKILLS:</h6>
+            <h6>ADDITIONAL SKILLS</h6>
             <p>Photoshop, ArcGIS, QGIS, ENVI, After Effects, Illustrator</p>
           </div>
         </div>
@@ -69,10 +74,11 @@
         <div class="title">
           <h2 class="">Projects</h2>
         </div>
-        <div class="row">
-          <div class="card-columns">
+        <div class="card-columns">
           <div class="card">
-            <img class="card-img-top" src="https://source.unsplash.com/random/300x300" alt="tutbucket">
+            <a href="https://github.com/benjdelt/tut-bucket" target="_blank">
+              <img class="card-img-top" src="./static/pictures/tut-searching.gif" alt="tutbucket">
+            </a>
             <div class="card-body">
               <h4 class="card-title">Tut Bucket</h4>
               <p class="card-text">
@@ -82,7 +88,9 @@
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" src="https://source.unsplash.com/random/300x300" alt="tweeter">
+            <a href="https://github.com/tienhoah/tweeter" target="_blank">
+              <img class="card-img-top" src="https://media.giphy.com/media/1fo540SLVPvHKeOj1o/giphy.gif" alt="tweeter">
+            </a>
             <div class="card-body">
               <h4 class="card-title">Tweeter</h4>
               <p class="card-text">
@@ -92,16 +100,17 @@
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" src="https://source.unsplash.com/random/300x300" alt="tweeter">
+            <a href="https://github.com/tienhoah/chatty-app" target="_blank">
+              <img class="card-img-top" src="./static/pictures/chatty_app.png" alt="chatty">
+            </a>
             <div class="card-body">
-              <h4 class="card-title">Tweeter</h4>
+              <h4 class="card-title">Chatty</h4>
               <p class="card-text">
                 <small class="text-muted">Aug 2018</small>
               </p>
-              <p class="card-text">Tweeter is a simple, single AJAX page Twitter clone using jQuery, HTML5 and plain CSS3.</p>
+              <p class="card-text">A simple chat app built of React, WebSocket, and boiler plate from a minimal and light dev environment for ReactJS.</p>
             </div>
           </div>
-        </div>
         </div>
       </div>
       <div class="employment-section">
@@ -109,7 +118,7 @@
           <h2 class="">Empoyment</h2>
         </div>
         <h4>BC Ministry of Agriculture</h4>
-        <h6>GIS Technician | Jan. 2018 to Sept.2017</h6>
+        <h6>GIS Technician | Jan. 2018 to Sept. 2017</h6>
         <ul>
           <li>Implemented Python script that utilizes ArcGIS module to automate map book creation for different regions in British Columbia.</li>
           <li>Developed a new Python script for database migration that shortens the steps and and improves the registration process by 3 times.</li>
@@ -123,10 +132,8 @@
           <h2 class="">Education</h2>
         </div>
         <h4>Simon Fraser University</h4>
-        <h6>BSc Geographic Information Science 2018</h6>
-        <h6>Sept. 2012 to April 2018</h6>
-        <p>Faculty of Applied Science</p>
-        <p>Courses Completed: 6 Maths, 14 Computer Sciences, 12 Geographys</p>
+        <h6>BSc Geographic Information Science | 2012 - 2018</h6>
+        <p>Faculty of Applied Science | <strong>Computer Sciences Courses:</strong> Python, C, C++, Java, Andriod, Django, RDBMS & Algorithm</p>
         <h4>Lighthouse Labs</h4>
         <h6>July 2018 to Oct. 2018</h6>
         <p>Fullstack web development bootcamp covering skills such as javascript, React, Node.js, MongoDB, PostgreSQL, Ruby, Ruby on Rails, jQuery, HTML, CSS, and SASS.</p>

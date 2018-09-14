@@ -1,20 +1,57 @@
+body {
+  font-family: 'Lora', serif;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+h6 {
+  font-weight: 600;
+}
+
 .main-container {
   max-width: 850px;
 }
 
-ul.contact-list li{
-  display: inline;
-  margin-bottom: 3em;
+img.profile-pic {
+  width: 120px;
+  height:120px;
+  max-width: 100%;
+  border-radius: 100px;
+  margin: 0 auto;
+  display: block;
+
+}
+a.btn {
+  margin-bottom: 5px;
+  font-family: 'Signika', sans-serif;
 }
 
+ul.contact-list li{
+  display: inline;
+  padding: 10px;
+  margin-bottom: 3em;
+}
+a {
+  color: black;
+}
 
+h1.name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
 div.title{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
   border: solid;
   border-color: gray;
   border-top-width: 5px;
   border-right-width: 0px;
   border-bottom-width: 1px;
   border-left-width: 0px;
+  border-color: #cccccc;
+  padding-top: 0.5em;
   margin-bottom: 10px;
 }
 
