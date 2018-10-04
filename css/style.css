@@ -10,6 +10,10 @@ h6 {
   font-weight: 600;
 }
 
+h6.tech-stack {
+  text-decoration: underline;
+}
+
 .main-container {
   max-width: 850px;
 }
@@ -21,7 +25,7 @@ img.profile-pic {
   border-radius: 100px;
   margin: 0 auto;
   display: block;
-
+  transform: rotate(-45);
 }
 a.btn {
   margin-bottom: 5px;
@@ -56,5 +60,16 @@ div.title{
   margin-bottom: 10px;
 }
 
+img.card-img-top-eatee {
+  height: 200px;
+  width: 110px;
+  display: inline;
+
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
 
 
